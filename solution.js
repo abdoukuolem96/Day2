@@ -19,8 +19,8 @@ buttons_add.forEach((item) => {
 
 let update = (sum) => {
   subtotal.innerHTML = sum.toFixed(2) + "$";
-  taxes.innerHTML = (sum * 0.1).toFixed(2) + "$";
-  total.innerHTML = (sum + sum * 0.1).toFixed(2) + "$";
+  taxes.innerHTML = (sum * 0.0975).toFixed(2) + "$";
+  total.innerHTML = (sum + sum * 0.0975).toFixed(2) + "$";
 };
 
 let sum = 0;
