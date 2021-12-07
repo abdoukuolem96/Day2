@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Advent of JS and CSS Day2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <h3>To Go Menu</h3>
+
+            <div id="french-fries" class="menu">
+                <img src="STARTER-FILES/images/plate__french-fries.png" alt="French Fries with Ketchup">
+                <div class="title">French Fries with Ketchup</div>
+                <div class="price">2.23$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="salmon" class="menu">
+                <img src="./STARTER-FILES/images/plate__salmon-vegetables.png" alt="Salmon and Vegetables">
+                <div class="title">Salmon and Vegetables</div>
+                <div class="price">5.12$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="bacon" class="menu">
+                <img src="./STARTER-FILES/images/plate__bacon-eggs.png" alt="Bacon and Eggs">
+                <div class="title">Bacon and Eggs</div>
+                <div class="price">5.99$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="chicken" class="menu">
+                <img src="./STARTER-FILES/images/plate__chicken-salad.png" alt="Chicken and Salad">
+                <div class="title">Chicken and Salad</div>
+                <div class="price">4.00$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="fish" class="menu">
+                <img src="./STARTER-FILES/images/plate__fish-sticks-fries.png" alt="Fish, Stick and Fries">
+                <div class="title">Fish, Stick and Fries</div>
+                <div class="price">3.00$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="ravioli" class="menu">
+                <img src="./STARTER-FILES/images/plate__ravioli.png" alt="Ravioli">
+                <div class="title">Ravioli</div>
+                <div class="price">8.00$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="spaghetti" class="menu">
+                <img src="./STARTER-FILES/images/plate__spaghetti-meat-sauce.png" alt="Spaghetti, Meat and Sauce">
+                <div class="title">Spaghetti, Meat and Sauce</div>
+                <div class="price">7.82$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+            <div id="tortellini" class="menu">
+                <img src="./STARTER-FILES/images/plate__tortellini.png" alt="Tortellini">
+                <div class="title">Tortellini</div>
+                <div class="price">7.00$</div>
+                <button type="button" class="addCart">Add to Cart</button>
+            </div>
+
+        </div>
+        <div class="right">
+            <h3>Your cart</h3>
+
+            <div class="items">
+                <div class="item">
+                    <img class="item-image" src="./STARTER-FILES/images/plate__spaghetti-meat-sauce.png"
+                        alt="Choosen plate">
+                    <div class="item-name">Fish, Stick and Fries</div>
+                    <div class="item-price">10.50$</div>
+                    <div class="quantity">
+                        <div class="adjusting">
+                            <img class="less adjust" src="./STARTER-FILES/images/chevron.svg" alt="less">
+                            <div class="item-quantity">0</div>
+                            <img class="more adjust" src="./STARTER-FILES/images/chevron.svg" alt="more">
+                        </div>
+                        <div class="item-total">9.00$</div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="paiement">
+                <div class="subtotal-row rows">
+                    <div class="subtotal names">Subtotal:</div>
+                    <div class="subtotal-value values">0.00$</div>
+                </div>
+                <div class="tax-row rows">
+                    <div class="tax names">Taxes:</div>
+                    <div class="taxes-value values">0.00$</div>
+                </div>
+                <div class="total-row rows">
+                    <div class="total names">Total:</div>
+                    <div class="total-value values">0.00$</div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript" src="solution.js"></script>
+</body>
+
+</html>
